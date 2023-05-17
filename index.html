@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz кто ты из мстителей?</title>
+	<link rel="stylesheet" href="css/style.min.css" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+		
+		<main class="page">
+			<div class="quiz">
+				<div class="quiz__container">
+					<div class="quiz__preview">
+						<h1 class="quiz__title">Кто вы из мстителей?</h1>
+						<div class="quiz__banner"><img src="img/banner.jpg" alt="marvel banner"></div>
+					</div>
+					<div class="quiz__content">
+						<div class="quiz__test test" id="test">
+							<div class="test__top">
+								<div class="test__question" id="question"></div>
+								<div class="test__questionIndex"><span id="questionIndex">0</span> из <span id="allQuestions">0</span></div>
+							</div>
+							<ul class="test__answers answers" id="answers">
+							</ul>
+						</div>
+						<div class="quiz__result result" id="result">
+							<img src="#" class="result__img" id="resultImg">
+							<div class="result__text" id="resultText">
+							</div>
+						</div>
+						<button class="quiz__start" id="btnStart">Начать</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+	</div>
+
+	<script type="module" src="js/script.min.js"></script>
+</body>
+</html>
